@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Cryptocurrencies</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div class="container">
+
+			<div class="container-fluid mt-5 p-3">
+
+				<div class="table-responsive-md">
+					<table class="table table-hover table-bordered table-striped table-secondary">
+						<thead>
+							<tr>
+								<th><h1>Cryptocurrencies</h1></th>
+							</tr>
+						</thead>
+					</table>
+				</div>
+
+				<div class="table-responsive-md">
+					<table class="table table-hover table-bordered border-light table-dark table-striped">
+						<thead>
+							<tr>
+								<th>Currency</th>
+								<th>Info</th>
+								<th>In Dollars (USD)</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							<tr class="table-warning">
+									<td><img class="img-fluid img-thumbnail" src="data:image/png;base64,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" alt="bitcoin"><h2>Bitcoin</h2></td>
+									<td>Bitcoin (BTC) is the first decentralized cryptocurrency. bitcoin was invented in 2008 by Satoshi Nakamoto, an unknown person. Use of this as a currency began in 2009, with the release of its open-source implementation. Bitcoin is the best known type of crypto to use.</td>
+									<td> 1 BTC = 94459.58 USD</td>
+							</tr>
+
+						</tbody>
+
+					</table>
+				</div>
+
+				<div class="table-responsive-md">
+					<table class="table table-hover table-bordered border-light table-dark table-striped">
+						<thead>
+
+							<tr>
+								<th>Currency</th>
+								<th>Info</th>
+								<th>In Dollars (USD)</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							<tr class="table-warning">
+								<td><img class="img-fluid img-thumbnail" src="data:image/webp;base64,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" alt="dogecoin"><h2>Dogecoin</h2></td>
+								<td>Dogecoin (DOGE) is a cryptocurrency created by  Billy Markus and Jackson Palmer. They made this cryptocurrency as a joke, making fun of cryptocurrencies at the time. It is the first "meme coin", and the first "dog coin". Despite its nature, some consider it an investment prospect. Dogecoin features the face of Kabosu from the "doge" meme as its logo and namesake. It was introduced on December 6, 2013, and quickly developed its own online community, reaching a peak capitalization of over US$85 billion on May 5, 2021</td>
+								<td>1 DOGE = 0.41 USD</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="table-responsive-md">
+					<table class="table table-hover table-bordered border-light table-dark table-striped">
+						<thead>
+
+							<tr>
+								<th>Currency</th>
+								<th>Info</th>
+								<th>In Dollars (USD)</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							<tr class="table-info">
+								<td><img class="img-fluid img-thumbnail" src="data:image/png;base64,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" alt="litecoin"><h2>Litecoin</h2></td>
+								<td>Litecoin (LTC) is a decentralized cryptocurrency and open-source software project released under the MIT/X11 license. Inspired by Bitcoin, Litecoin was one of the the earliest altcoins, starting in October 2011. Litecoin main chain shares a slightly modified Bitcoin codebase. Due to the similarities to Bitcoin, Litecoin has historically been referred to as the "silver to Bitcoin's gold."</td>
+								<td>1 LTC = 94.16 USD</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	</body>
+</html>

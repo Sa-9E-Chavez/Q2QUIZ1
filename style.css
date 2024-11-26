@@ -1,0 +1,44 @@
+body {
+	background-image: url("https://content.kaspersky-labs.com/fm/press-releases/e0/e0c122e63ca4199bb2f758617abad50b/source/cryptocurrencyimage11130490519670x377px300dpi.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover;
+}
+
+.img-container {
+	max-width: 800px;
+	padding: 30px;
+	max-height: 800px;
+}
+
+img {
+	width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+th {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	background-color:lightgray;
+}
+
+.container {
+	font-family: cursive;
+}
+
+table {
+	text-align: center;
+}
